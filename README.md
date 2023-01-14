@@ -805,7 +805,7 @@ $\color{#D3D3D3}{\text{красное слово}}$
 
 <span style="color: blue;">Ваш текст</span>
 
-<h3 style="background-color:#ff9911">HTML Фон текста оранжевый</h3>
+<p style="color:#ff9911">оранжевый</p>
 
 
 
