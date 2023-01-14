@@ -342,7 +342,7 @@ for x in "01234567" :
 
 <span class="math-tex">\(\xrightarrow{❶}\)</span>
 
-$\xrightarrow{❶}$
+$2x84x_{19}$ $\xrightarrow{❶}$ `"2" + x + "84" + x` $\xrightarrow{❷}$ `int("2" + x + "84" + x)` $\xrightarrow{❸}$ `int("2" + x + 84 + x, 19)`
 
 
 
