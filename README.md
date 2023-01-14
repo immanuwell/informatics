@@ -95,7 +95,7 @@ if ((y <= z) and (not((y or w) <= (z and x)))) == 1:
 в заданиях | в Python
 --- | ---
 $\lor$ или $\mid$ | `or`
-$\land$ или $ \&{}$ | `and`
+$\land$ или $\&{}$ | `and`
 $\to$ | `<=`
 $\equiv$ | `==`
 $\neg$ | `(not ... )`
