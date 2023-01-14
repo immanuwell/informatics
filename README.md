@@ -332,17 +332,18 @@ for x in "01234567" :
 
 ❷ — процесс сборки и перевода числа выглядит так; тут мы используем 2 аргумент `int(..., )`; он нужен, когда мы переводим не 10-ичный объект:
 
-<span class="math-tex">\(2x84x_{19}\)</span>&nbsp;<span class="math-tex">\(\xrightarrow{❶}\)</span> <code>&quot;2&quot; + x + &quot;84&quot; + x</code>&nbsp;<span class="math-tex">\(\xrightarrow{❷}\)</span>&nbsp;<code><span style="color:#cc0000">int(</span>&quot;2&quot; + x + &quot;84&quot; + x<span style="color:#cc0000">)</span></code>&nbsp;<span class="math-tex">\(\xrightarrow{❸}\)</span>&nbsp;<code>int(&quot;2&quot; + x + 84 + x<span style="color:#cc0000">, 19</span>)</code>
+<!-- <span class="math-tex">\(2x84x_{19}\)</span>&nbsp;<span class="math-tex">\(\xrightarrow{❶}\)</span> <code>&quot;2&quot; + x + &quot;84&quot; + x</code>&nbsp;<span class="math-tex">\(\xrightarrow{❷}\)</span>&nbsp;<code><span style="color:#cc0000">int(</span>&quot;2&quot; + x + &quot;84&quot; + x<span style="color:#cc0000">)</span></code>&nbsp;<span class="math-tex">\(\xrightarrow{❸}\)</span>&nbsp;<code>int(&quot;2&quot; + x + 84 + x<span style="color:#cc0000">, 19</span>)</code> -->
 
-- ❶ — склеиваем отдельные строки
+$2x84x_{19}$ $\xrightarrow{1}$ `"2" + x + "84" + x` $\xrightarrow{2}$ `int("2" + x + "84" + x)` $\xrightarrow{3}$ `int("2" + x + 84 + x, 19)`
 
-- ❷ — преобразуем это в число — `int()`
+- 1 — склеиваем отдельные строки
 
-- ❸ — так как преобразуем в число не десятичные символы, то указываем второй аргумент в `int()` — основание системы 
+- 2 — преобразуем это в число — `int()`
 
-<span class="math-tex">\(\xrightarrow{❶}\)</span>
+- 3 — так как преобразуем в число не десятичные символы, то указываем второй аргумент в `int()` — основание системы 
 
-$2x84x_{19}$ $\xrightarrow{❶}$ `"2" + x + "84" + x` $\xrightarrow{❷}$ `int("2" + x + "84" + x)` $\xrightarrow{❸}$ `int("2" + x + 84 + x, 19)`
+
+
 
 
 
@@ -598,3 +599,50 @@ else:
 
 
 **Итог**: если 2 противоположных результата — `if` и `else`, если есть результат и много других — `if` и `elif`.
+
+
+
+
+
+
+#### Цикл for
+
+```python
+for <x> in <набор> :
+    <действия>
+```
+
+- в конце строки с `for` всегда `:`
+
+- цикл `for` позволяет повторить `<действия>` сколько-то раз; количество повторов определяется длиной `<набора>` 
+
+- в качестве `<набора>` может быть любой объект, у которого можно извлечь отдельные элементы
+
+
+Примеры наборов, которые состоят из одинакового количества элементов, поэтому дадут *одинаковое количество повторов* в цикле `for`:
+
+```python
+1, 2, 3
+
+"1", 5//2, 6.0
+
+"a", "b", "c"
+
+"abc"
+
+range(3)
+
+range(0, 3)
+```
+
+
+<br></br>
+Полезная штука — **генератор списка**:
+```python
+
+[ <выражение> for <x> in <набор> ]
+```
+
+`<выражение>` определяет, что будет помещено в список `[]`; 
+`<выражение>` выполняется для всех `<x>` в `<наборе>`
+
