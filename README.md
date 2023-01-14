@@ -801,6 +801,7 @@ $\color{#D3D3D3}{\text{красное слово}}$
 
 <font color="red"> красное слово </font>
 
+<p style="color:#D3D3D3">Пример</p>
 
 
 
