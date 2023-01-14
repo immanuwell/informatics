@@ -541,41 +541,42 @@ while число > 0:
 ## 16 задание  
 Теперь как мы делаем 16 задание
 
-<p><img alt="" height="573" name="16_задание_списки_теория_1.png" src="https://ucarecdn.com/2881b304-637f-456c-a612-64ae44a78776/" width="577" /></p>
+<img alt="" height="573" name="16_задание_списки_теория_1.png" src="https://ucarecdn.com/2881b304-637f-456c-a612-64ae44a78776/" width="577" />
 
-<p>&nbsp;</p>
+<img alt="" height="97" name="горизонтальная линия.svg" src="https://ucarecdn.com/48ceb76a-c46c-4feb-8747-9822e8433fc5/" width="846" />
 
-<p><img alt="" height="97" name="горизонтальная линия.svg" src="https://ucarecdn.com/48ceb76a-c46c-4feb-8747-9822e8433fc5/" width="846" /></p>
+<img alt="" height="566" name="16_задание_списки_теория_2.png" src="https://ucarecdn.com/229d7bf4-2964-4ae9-bf06-5a1a9e444d06/" width="579" />
 
-<p><img alt="" height="566" name="16_задание_списки_теория_2.png" src="https://ucarecdn.com/229d7bf4-2964-4ae9-bf06-5a1a9e444d06/" width="579" /></p>
 
-<p><strong>&quot;С номерами 3 и больше&quot;</strong>&nbsp;&mdash; значит, используем&nbsp;<code>range(3, ...)</code>, где на месте многоточия ставим <em>номер последнего интересующего нас элемента + 1</em></p>
+"С номерами 3 и больше" — значит, используем `range(3, ...)`, где на месте многоточия ставим номер последнего интересующего нас элемента + 1
 
-<p>Значения из&nbsp;<code>range(3, ...)</code>&nbsp;мы будем записывать в&nbsp;<span style="color:#0000ff">n&nbsp;</span>, то есть <span style="color:#0000ff">n</span> будет меняться от 3 и до того, что нам нужно&nbsp;</p>
+Значения из `range(3, ...)` мы будем записывать в `n`, то есть `n` будет меняться от 3 и до того, что нам нужно 
 
-<p>Чтобы <span style="color:#0000ff">n</span> постоянно перезаписывалась, помещаем всё это в цикл&nbsp;<code>for</code></p>
+Чтобы `n` постоянно перезаписывалась, помещаем всё это в цикл `for`
 
-<p>На данный момент имеем&nbsp;</p>
-
-<pre>
-<code class="language-python">for n in range(3, ...):</code></pre>
-
-<p>&quot;<strong>вписываем значения</strong>&quot;&nbsp;&mdash; значит, используем метод добавления в конец списка&nbsp;&mdash;&nbsp;<code>F.append()</code></p>
-
-<p>Вписываем мы в конец то, что вычисляется по формуле <span style="color:#ff0000">F(n-1) * n </span>; помним, что <span style="color:#ff0000">F(n-1)</span> хранится в нашем списке <span style="color:#ff0000">F</span> на месте <span style="color:#0000ff">n-1 </span>то есть тут&nbsp;&mdash;<span style="color:#0000ff"> </span><span style="color:#ff0000">F[n-1]</span></p>
-
-<p>Получается так:&nbsp;<code>F.append( F[n-1] * n )</code></p>
-
-<p>В итоге имеем такую полную программу:</p>
-
-<pre>
-<code class="language-python">F = [0, 1, 3]
+На данный момент имеем:
+```python
 for n in range(3, ...):
-    F.append(F[n-1] * n)</code></pre>
+```
 
-<p>И теперь, если в задании нам необходимо найти значение функции F(120), мы просто в конце пишем&nbsp;<code>print(F[120])</code></p>
+"вписываем значения" — значит, используем метод добавления в конец списка — `F.append()`
 
-<p>При этом не забываем, что тогда 2 аргумент в&nbsp;<code>range()</code>&nbsp;должен быть на 1 больше&nbsp;&mdash;&nbsp;<code>range(3, 121)</code></p>
+Вписываем мы в конец то, что вычисляется по формуле F(n-1) * n ; помним, что F(n-1) хранится в нашем списке `F` на месте `n-1` то есть тут — `F[n-1]`
+
+Получается так: `F.append( F[n-1] * n )`
+
+В итоге имеем такую полную программу:
+```python
+F = [0, 1, 3]
+for n in range(3, ...):
+    F.append(F[n-1] * n)
+```
+
+И теперь, если в задании нам необходимо найти значение функции F(120), мы просто в конце пишем `print(F[120])`
+
+При этом не забываем, что тогда 2 аргумент в `range()` должен быть на 1 больше — `range(3, 121)`
+
+
 
 
 
