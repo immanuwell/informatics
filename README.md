@@ -541,15 +541,12 @@ while число > 0:
 ## 16 задание  
 Теперь как мы делаем 16 задание
 
-<!-- <img alt="" height="573" name="16_задание_списки_теория_1.png" src="https://ucarecdn.com/2881b304-637f-456c-a612-64ae44a78776/" width="577" /> -->
 ![](https://ucarecdn.com/2881b304-637f-456c-a612-64ae44a78776/16_задание_списки_теория_1.png)
 
 
-<!-- <img alt="" height="97" name="горизонтальная линия.svg" src="https://ucarecdn.com/48ceb76a-c46c-4feb-8747-9822e8433fc5/" width="846" /> -->
-![](https://ucarecdn.com/48ceb76a-c46c-4feb-8747-9822e8433fc5/горизонтальная_линия.svg)
+<!-- ![](https://ucarecdn.com/48ceb76a-c46c-4feb-8747-9822e8433fc5/горизонтальная_линия.svg) -->
 
 
-<!-- <img alt="" height="566" name="16_задание_списки_теория_2.png" src="https://ucarecdn.com/229d7bf4-2964-4ae9-bf06-5a1a9e444d06/" width="579" /> -->
 ![](https://ucarecdn.com/229d7bf4-2964-4ae9-bf06-5a1a9e444d06/16_задание_списки_теория_2.png)
 
 
