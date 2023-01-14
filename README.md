@@ -799,6 +799,8 @@ print("a" * 3)
 $\color{#D3D3D3}{\text{красное слово}}$
 
 
+<font color="red"> красное слово </font>
+
 
 
 
