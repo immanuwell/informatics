@@ -12,12 +12,31 @@ graph TD;
 
 
 ```mermaid
-  graph TD;
+graph TD;
   A-->B;
   A-->C;
   B-->F;
   C-->B;
 ``` 
+
+
+```mermaid
+graph LR;
+  A--> B & C & D;
+  B--> A & E;
+  C--> A & E;
+  D--> A & E;
+  E--> B & C & D;
+```
+
+```mermaid
+graph TD
+   A(Coffee machine <br>not working) --> B{Machine has power?}
+   B -->|No| H(Plug in and turn on)
+   B -->|Yes| C{Out of beans or water?} -->|Yes| G(Refill beans and water)
+   C -->|No| D{Filter warning?} -->|Yes| I(Replace or clean filter)
+   D -->|No| F(Send for repair)
+```   
 
 
 
