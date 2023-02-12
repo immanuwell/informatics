@@ -11,14 +11,13 @@ graph TD;
     C-->D;
 
 
-<pre class="mermaid">
-<code>
-    graph TD;
-    A-->B;
-    A-->C;
-    B-->F;
-    C-->B;
-</code></pre>  
+```mermaid
+  graph TD;
+  A-->B;
+  A-->C;
+  B-->F;
+  C-->B;
+``` 
 
 
 
