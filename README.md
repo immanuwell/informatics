@@ -89,10 +89,19 @@ classDiagram
 ```mermaid
 
 flowchart LR
-    ... --> |п| .... -->  ..... --> |п| ......
+    1... --> |п| 2.... -->  3..... --> |п| 4......
 
 ```
 
+
+
+```mermaid
+flowchart LR
+    A[Hard edge] -->|Link text| B(Round edge)
+    B --> C{Decision}
+    C -->|One| D[Result one]
+    C -->|Two| E[Result two]
+```
 
 
 
