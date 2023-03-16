@@ -1905,10 +1905,14 @@ range(0, 3)
 ```
 `[1, 2, 3]`
 
+<br></br>
+
 ```python
 [ 0 for x in range(2) ]
 ```
 `[0, 0]`
+
+<br></br>
 
 ```python
 [ x**0.5 for x in [4, 9, 16] ]
