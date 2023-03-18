@@ -149,7 +149,10 @@ $\neg$ | `(not ... )`
 
 
 <br></br>
+
 ## 5 задание  
+
+**[Примеры решения 5 заданий](https://colab.research.google.com/drive/1bvii9s7BNuheY0m-W--TRA5n4cMVYtQ6?usp=sharing)**
 
 Есть 2 основных типа 5 заданий, вот общая структура кода для каждого типа: 
 
