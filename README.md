@@ -225,6 +225,7 @@ $\neg$ | `(not ... )`
 
 
 <br></br>
+
 ## 6 задание  
 
 
@@ -239,6 +240,7 @@ $\neg$ | `(not ... )`
 
 
 <br></br>
+
 ## 7 задание  
 
 Есть 2 основных типа 7 заданий: 
@@ -290,6 +292,8 @@ $\neg$ | `(not ... )`
 <br></br>
 
 ## 8 задание  
+
+**[Примеры решения 8 заданий](https://colab.research.google.com/drive/1ClHlzM8pZketEchFaA5z75YCLXi-G9NO?usp=sharing)**
 
 
 В этом задании составляются слова известной длины из набора каких-то символов. 
@@ -494,6 +498,8 @@ print(счёт)
 <br></br>
 
 ## 12 задание  
+
+**[Примеры решения заданий](https://colab.research.google.com/drive/1ZMu1VPm9IG9opzsnG7xw_fAFXVV7GphW?usp=sharing)**
 
 
 **Общая структура кода для решения такая:** 
@@ -780,7 +786,10 @@ if a.count("1") == 26 and a.count("2") == 54 and a.count("3") == 48:
 
 
 <br></br>
+
 ## 14 задание  
+
+**[Примеры решения 14 задания](https://colab.research.google.com/drive/1xbup2pqE4goOxYIcJMZhTo4-QbZeJ3Vb?usp=sharing)**
 
 **1 тип — выражение из чисел в разных системах счисления**
 
@@ -992,7 +1001,10 @@ while число > 0:
 
 
 <br></br>
+
 ## 15 задание  
+
+**[Примеры решения 15 задания](https://colab.research.google.com/drive/14hR_PhL541tzFVbbYxcCYJxnDy_CZzGf?usp=sharing)**
 
 15 задания могут быть нескольких видов. 
 
@@ -1074,7 +1086,11 @@ for A in range(0, 100):
 
 
 <br></br>
+
 ## 16 задание  
+
+**[Примеры решения 16 задания](https://colab.research.google.com/drive/19nkoFqhURXJ1brO1OyI-wNoc3IvVi9wL?usp=sharing)**
+
 Так мы делаем 16 задание
 
 ![](https://ucarecdn.com/2881b304-637f-456c-a612-64ae44a78776/16_задание_списки_теория_1.png)
@@ -1125,7 +1141,10 @@ for n in range(3, ...):
 
 
 <br></br>
+
 ## 17 задание  
+
+**[Примеры решения 17 задания](https://colab.research.google.com/drive/1TzYFI7zPKsISkE64PJavlRysAkv-mQ3Q?usp=sharing)**
 
 **Общая структура кода:**
 ```python
@@ -1467,6 +1486,8 @@ B.append(A[x] + A[y])
 
 ## 23 задание  
 
+**[Примеры решения 23 заданий](https://colab.research.google.com/drive/1u9PgEbBNqhSZUkjlgkQsUyBmjNPq2Js7?usp=sharing)**
+
 Типичный код для решения 23 задания, написан для доступных ходов:
 - "+1"
 - "+2"
@@ -1504,7 +1525,10 @@ B.append(A[x] + A[y])
 
 
 <br></br>
+
 ## 24 задание  
+
+**[Примеры решения 24 заданий](https://colab.research.google.com/drive/1REvaWBRo04G_B4t3HsYUCoiNYYTwtv20?usp=sharing)**
 
 Код для решения разных 24 заданий может довольно сильно отличаться. 
 Единственное — открытие файла при помощи `open()` и считывание при помощи `.readline()` есть всегда.
