@@ -1757,7 +1757,10 @@ for x in range(10):
 
 
 <br></br>
+
 ## 26 задание  
+
+**[Примеры решения 26 заданий](https://colab.research.google.com/drive/1FPLCWGyeYRjAQSjJQEq9sg1ilB-Tfp1s?usp=sharing)**
 
 
 
