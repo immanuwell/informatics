@@ -2368,6 +2368,19 @@ s[0] = "b"
 
 # Простые программы C++
 
+Создание и вывод числа
+```cpp
+#include <iostream>
+using namespace std;
+
+int main(){
+    int x;
+    x = 5;
+    cout << x;
+}
+```
+<br></br>
+
 
 Ввод числа и его вывод
 ```cpp
