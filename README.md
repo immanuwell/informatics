@@ -2399,6 +2399,24 @@ int main(){
 <br></br>
 
 
+
+Ввод 2 чисел и их обработка
+```cpp
+#include <iostream>
+using namespace std;
+
+int main(){
+    int x;
+    int y;
+    cin >> x;
+    cin >> y;
+    cout << x+y << endl;
+}
+```
+<br></br>
+
+
+
 Спрашивает имя и выводит
 ```cpp
 #include <iostream>
@@ -2450,6 +2468,56 @@ int main(){
         }
     }
     cout << min_s;
+}
+```
+<br></br>
+
+
+
+
+
+
+№ 6760 Апробация 10.03.23 - работа с файлом
+```cpp
+#include <iostream>
+#include <fstream>
+#include <vector>
+#include <cmath>
+
+using namespace std;
+
+int main() {
+    ifstream input("27_A_6760.txt");
+    int n;
+    input >> n;
+
+    vector<int> N(n);
+    vector<int> K(n);
+    for(int i=0; i<n; i++){
+        int num, prob;
+        input >> num >> prob;
+        N[i] = num;
+        K[i] = prob/48 + (prob%48 > 0);
+    }
+
+    vector<int> all_s(n);
+    for(int x=0; x<n; x++){
+        int s = 0;
+        for(int y=0; y<n; y++){
+            s += abs(N[x] - N[y]) * K[y];
+        }
+        all_s[x] = s;
+    }
+
+    int min_s = all_s[0];
+    for(int i=1; i<n; i++){
+        if(all_s[i] < min_s){
+            min_s = all_s[i];
+        }
+    }
+    cout << min_s;
+
+    return 0;
 }
 ```
 <br></br>
