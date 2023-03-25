@@ -2383,6 +2383,7 @@ int main(){
     return 0;
 }
 ```
+<br></br>
 
 
 Спрашивает имя и выводит
@@ -2397,3 +2398,45 @@ int main(){
     std::cout << "Hello, " << name << "!";
 }
 ```
+<br></br>
+
+
+
+№ 6760 Апробация 10.03.23
+```cpp
+#include <iostream>
+//#include <vector>
+#include <cmath>
+
+using namespace std;
+
+int main(){
+
+    int n = 6;
+    int N[] = {1, 2, 5, 7, 8, 10};
+    int P[] = {100, 200, 4, 3, 2, 190};
+
+    int K[6];
+    for(int i=0; i<6; i++){
+        K[i] = P[i]/96 + (P[i]%96 > 0);
+    }
+
+    int all_s[6];
+    for(int x=0; x<6; x++){
+        int s = 0;
+        for(int y=0; y<6; y++){
+            s += abs(N[x] - N[y]) * K[y];
+        }
+        all_s[x] = s;
+    }
+
+    int min_s = all_s[0];
+    for(int i=1; i<6; i++){
+        if(all_s[i] < min_s){
+            min_s = all_s[i];
+        }
+    }
+    cout << min_s;
+}
+```
+<br></br>
