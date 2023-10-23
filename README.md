@@ -269,17 +269,17 @@ $\neg$ | `(not ... )`
 5. выбираешь "пульт", с помощью него рисуешь то, что нужно
 6. важно: перед рисованием опусти хвост, чтобы линия была видна
 
-![image-20231023153638610](C:\Users\Admin\AppData\Roaming\Typora\typora-user-images\image-20231023153638610.png)
+![image-20231023153638610](C:\Users\Admin\Documents\Квентин\Курс инф ЕГЭ 2023\Самая основная теория информатика ЕГЭ\informatics\6 задание\image-20231023153638610.png)
 
-![image-20231023153730626](C:\Users\Admin\AppData\Roaming\Typora\typora-user-images\image-20231023153730626.png)
+![image-20231023153730626](C:\Users\Admin\Documents\Квентин\Курс инф ЕГЭ 2023\Самая основная теория информатика ЕГЭ\informatics\6 задание\image-20231023153730626.png)
 
-![image-20231023153751356](C:\Users\Admin\AppData\Roaming\Typora\typora-user-images\image-20231023153751356.png)
+![image-20231023153751356](C:\Users\Admin\Documents\Квентин\Курс инф ЕГЭ 2023\Самая основная теория информатика ЕГЭ\informatics\6 задание\image-20231023153751356.png)
 
-![image-20231023153828279](C:\Users\Admin\AppData\Roaming\Typora\typora-user-images\image-20231023153828279.png)
+![image-20231023153828279](C:\Users\Admin\Documents\Квентин\Курс инф ЕГЭ 2023\Самая основная теория информатика ЕГЭ\informatics\6 задание\image-20231023153828279.png)
 
-![image-20231023153926628](C:\Users\Admin\AppData\Roaming\Typora\typora-user-images\image-20231023153926628.png)
+![image-20231023153926628](C:\Users\Admin\Documents\Квентин\Курс инф ЕГЭ 2023\Самая основная теория информатика ЕГЭ\informatics\6 задание\image-20231023153926628.png)
 
-![image-20231023154014100](C:\Users\Admin\AppData\Roaming\Typora\typora-user-images\image-20231023154014100.png)
+![image-20231023154014100](C:\Users\Admin\Documents\Квентин\Курс инф ЕГЭ 2023\Самая основная теория информатика ЕГЭ\informatics\6 задание\image-20231023154014100.png)
 
 
 
